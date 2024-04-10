@@ -1,0 +1,291 @@
+1
+00:00:00,000 --> 00:00:04,000
+what we have here is called a boolean value. Now note that
+
+2
+00:00:04,000 --> 00:00:08,000
+python is a case sensitive language, so it's sensitive to lower case and
+
+3
+00:00:08,000 --> 00:00:12,000
+upper case letters. In this case, if I use a lower case f,
+
+4
+00:00:12,000 --> 00:00:16,000
+you can see an error over here, because this is not
+
+5
+00:00:16,000 --> 00:00:20,000
+recognized in python. So false with a capital F
+
+6
+00:00:20,000 --> 00:00:24,000
+is a special keyword in python that represents the boolean false value.
+
+7
+00:00:24,000 --> 00:00:28,000
+So this is how we can declare and use variables in python.
+
+8
+00:00:28,000 --> 00:00:32,000
+Alright, now here's a little exercise for you. Imagine you want to write
+
+9
+00:00:32,000 --> 00:00:36,000
+a program for a hospital. So we're going to check in a patient named John Smith,
+
+10
+00:00:36,000 --> 00:00:40,000
+he's 20 years old and is a new patient. I want you to declare
+
+11
+00:00:40,000 --> 00:00:44,000
+a few variables to store these values. Use the comment box below
+
+12
+00:00:44,000 --> 00:00:48,000
+to share your code with others.
+
+13
+00:00:48,000 --> 00:00:56,000
+In this tutorial, I'm going to show you how to receive input from the user.
+
+14
+00:00:56,000 --> 00:01:00,000
+So in python we have another built in function called input,
+
+15
+00:01:00,000 --> 00:01:04,000
+we use this to read a value from the terminal window. Let me show you. So
+
+16
+00:01:04,000 --> 00:01:08,000
+we add parenthesis, then we type a string, here we can type
+
+17
+00:01:08,000 --> 00:01:12,000
+a message like what is your name. We add a question
+
+18
+00:01:12,000 --> 00:01:16,000
+mark followed by a space. You will see why we need this space in a second.
+
+19
+00:01:16,000 --> 00:01:20,000
+So, let's run this program, we get this message,
+
+20
+00:01:20,000 --> 00:01:24,000
+now we have to enter a value. So we click over here,
+
+21
+00:01:24,000 --> 00:01:28,000
+now you can see that the caret is separated from the question mark, this is because
+
+22
+00:01:28,000 --> 00:01:32,000
+of the white space that we added over here. So now we have to type
+
+23
+00:01:32,000 --> 00:01:36,000
+a value, let's say John, let me press enter,
+
+24
+00:01:36,000 --> 00:01:40,000
+this function will return the value that we entered in the terminal window.
+
+25
+00:01:40,000 --> 00:01:44,000
+So we can get that value and store it in a variable.
+
+26
+00:01:44,000 --> 00:01:48,000
+So, let's declare a variable called name, and set it to the return
+
+27
+00:01:48,000 --> 00:01:52,000
+value of the input function. Now we can print a greeting message
+
+28
+00:01:52,000 --> 00:01:56,000
+for this user. So, we use the print function,
+
+29
+00:01:56,000 --> 00:02:00,000
+we say hello, we add a space, now
+
+30
+00:02:00,000 --> 00:02:04,000
+after this string, we want to add the value of the name variable. So,
+
+31
+00:02:04,000 --> 00:02:08,000
+use a plus sign and then type name. What we are doing here
+
+32
+00:02:08,000 --> 00:02:12,000
+is called string concatenation. So we're combining this string
+
+33
+00:02:12,000 --> 00:02:16,000
+with another string. Now let's run our program and see what happens.
+
+34
+00:02:16,000 --> 00:02:20,000
+So what is your name, mosh, now
+
+35
+00:02:20,000 --> 00:02:24,000
+we get this message, hello mosh. So this is how we can use the
+
+36
+00:02:24,000 --> 00:02:28,000
+input function in python.
+
+37
+00:02:28,000 --> 00:02:36,000
+You'll learn about the three types of data in python. We have numbers,
+
+38
+00:02:36,000 --> 00:02:40,000
+strings, and booleans. Now there are times you want to convert
+
+39
+00:02:40,000 --> 00:02:44,000
+the value of a variable from one type to another. Let me show you.
+
+40
+00:02:44,000 --> 00:02:48,000
+So, we're going to use our input function to read the user's
+
+41
+00:02:48,000 --> 00:02:52,000
+birth year. So enter your birth year.
+
+42
+00:02:52,000 --> 00:02:56,000
+Now this input function is going to return a value,
+
+43
+00:02:56,000 --> 00:03:00,000
+so we can store it in a variable called birth underline
+
+44
+00:03:00,000 --> 00:03:04,000
+year. Okay, now let's write code to calculate
+
+45
+00:03:04,000 --> 00:03:08,000
+the age of this user. So, we write an expression like this.
+
+46
+00:03:08,000 --> 00:03:12,000
+Currently we are in the year 2020, so 2020 minus
+
+47
+00:03:12,000 --> 00:03:16,000
+birth year, this expression or piece of code is going to produce
+
+48
+00:03:16,000 --> 00:03:20,000
+a value, so once again we can store that value in a variable.
+
+49
+00:03:20,000 --> 00:03:24,000
+Let's call that variable age. Now let's print age
+
+50
+00:03:24,000 --> 00:03:28,000
+on the terminal. Let's run our program and see what happens.
+
+51
+00:03:28,000 --> 00:03:32,000
+So, my birth year is 1982,
+
+52
+00:03:32,000 --> 00:03:36,000
+enter, oops, our program crashed. So whenever you see this
+
+53
+00:03:36,000 --> 00:03:40,000
+red message, that indicates an error, so this error occurred
+
+54
+00:03:40,000 --> 00:03:44,000
+in this file, that is our app.py on line 2.
+
+55
+00:03:44,000 --> 00:03:48,000
+Right below that you can see the piece of code that
+
+56
+00:03:48,000 --> 00:03:52,000
+generated this error. So that is this expression, 2020 minus
+
+57
+00:03:52,000 --> 00:03:56,000
+birth year. Now below that you can see the type of error, so here
+
+58
+00:03:56,000 --> 00:04:00,000
+we have unsupported types or subtraction.
+
+59
+00:04:00,000 --> 00:04:04,000
+We have int and str.
+
+60
+00:04:04,000 --> 00:04:08,000
+What are these? Well this int is short for integer and that represents
+
+61
+00:04:08,000 --> 00:04:12,000
+a whole number in programming. So, 2020
+
+62
+00:04:12,000 --> 00:04:16,000
+is an example of an integer. Now birth year
+
+63
+00:04:16,000 --> 00:04:20,000
+is an example of a string, because whenever we call the input function
+
+64
+00:04:20,000 --> 00:04:24,000
+this function will return a value as a string. Even if we enter
+
+65
+00:04:24,000 --> 00:04:28,000
+a number, in other words, when I entered 1982,
+
+66
+00:04:28,000 --> 00:04:32,000
+this input function returned a string with these characters.
+
+67
+00:04:32,000 --> 00:04:36,000
+1982. So this string is different from the number
+
+68
+00:04:36,000 --> 00:04:40,000
+1982. They're completely different types. So in this case,
+
+69
+00:04:40,000 --> 00:04:44,000
+let me delete these lines, the reason we got this error
+
+70
+00:04:44,000 --> 00:04:48,000
+is that we tried to subtract a string from an integer.
+
+71
+00:04:48,000 --> 00:04:52,000
+So our code looked like this, 1982.
+
+72
+00:04:52,000 --> 00:04:56,000
+Now python doesn't know how to subtract a string from an integer.
+
+73
+00:04:56,320 --> 00:05:00,000
+So, to solve this problem, we need to convert this string to an
