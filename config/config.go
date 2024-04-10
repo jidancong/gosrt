@@ -52,7 +52,7 @@ func (cfg *Config) Config() error {
 	configName := filepath.Join(configDir, cfg.configName)
 
 	if _, err := os.Stat(configName); os.IsNotExist(err) {
-		os.Create(cfg.configName)
+		os.Create(configName)
 	}
 
 	viper.SetConfigName("config")
